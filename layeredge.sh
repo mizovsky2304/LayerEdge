@@ -92,7 +92,7 @@ function deploy_layeredge_node() {
     fi
 
     # Clone the repository
-    if git clone https://github.com/mizovsky2304/LayerEdgeNode.git; then
+    if git clone https://github.com/mizovsky2304/LayerEdge.git; then
         echo "Repository cloned successfully!"
     else
         echo "Failed to clone the repository. Check your network connection or the repository URL."
